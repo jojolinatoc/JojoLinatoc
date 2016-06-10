@@ -9,13 +9,16 @@
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/sass/screen.css'}">
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/sass/hf.css'}">
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/sass/general.css'}">
-
+        <!-- BOOTSTRAP CSS-->
+        <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <!-- FONT -->
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
         #{get 'moreStyles' /}
         <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
-        <script src="@{'/public/javascripts/jquery-1.6.4.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+        <!-- SCRIPTS -->
+        <script src="https://code.jquery.com/jquery-3.0.0.js"   integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo="   crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript" charset="${_response_encoding}"></script>
         #{get 'moreScripts' /}
     </head>
     <body>
