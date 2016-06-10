@@ -3,3 +3,9 @@ body, html {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
+/* line 4, ../../sass/sass/general.scss */
+body a, html a {
+  color: #00b36b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
