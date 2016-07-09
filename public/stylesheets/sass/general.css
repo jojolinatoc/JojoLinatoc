@@ -28,8 +28,6 @@ body .sections, html .sections {
 /* line 23, ../../sass/sass/general.scss */
 body .top-banner, html .top-banner {
   margin-top: -96px;
-  position: relative;
-  z-index: -1;
   background-image: url(/public/images/bg5.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -38,53 +36,53 @@ body .top-banner, html .top-banner {
   text-align: center;
   padding: 0 20px 0 20px;
 }
-/* line 34, ../../sass/sass/general.scss */
+/* line 32, ../../sass/sass/general.scss */
 body .top-banner .firstSection, html .top-banner .firstSection {
   max-width: 1100px;
   width: 100%;
   margin: 0 auto;
 }
-/* line 38, ../../sass/sass/general.scss */
+/* line 36, ../../sass/sass/general.scss */
 body .top-banner .firstSection .logo, html .top-banner .firstSection .logo {
   width: 150px;
   margin-top: 20%;
 }
-/* line 42, ../../sass/sass/general.scss */
+/* line 40, ../../sass/sass/general.scss */
 body .top-banner .firstSection .myName, html .top-banner .firstSection .myName {
   border: solid 3pt #fff;
   padding-bottom: 10px;
   min-width: 320px;
   margin: 20px auto;
 }
-/* line 47, ../../sass/sass/general.scss */
+/* line 45, ../../sass/sass/general.scss */
 body .top-banner .firstSection .myName h1, html .top-banner .firstSection .myName h1 {
   color: #fff;
   text-shadow: 1pt 1pt 1pt #333;
 }
-/* line 50, ../../sass/sass/general.scss */
+/* line 48, ../../sass/sass/general.scss */
 body .top-banner .firstSection .myName h1:hover, html .top-banner .firstSection .myName h1:hover {
   transition: all 0.8s ease;
 }
-/* line 54, ../../sass/sass/general.scss */
+/* line 52, ../../sass/sass/general.scss */
 body .top-banner .firstSection .myName:hover, html .top-banner .firstSection .myName:hover {
   background-color: #068B39;
   border-color: #068B39;
   transition: all 0.8s ease;
 }
-/* line 60, ../../sass/sass/general.scss */
+/* line 58, ../../sass/sass/general.scss */
 body .top-banner .firstSection h2, html .top-banner .firstSection h2 {
   color: #fff;
   font-size: 24pt;
 }
-/* line 65, ../../sass/sass/general.scss */
+/* line 63, ../../sass/sass/general.scss */
 body .top-banner .firstSection ul li, html .top-banner .firstSection ul li {
   display: inline-block;
 }
-/* line 68, ../../sass/sass/general.scss */
+/* line 66, ../../sass/sass/general.scss */
 body .top-banner .firstSection ul li a img, html .top-banner .firstSection ul li a img {
   width: 48px;
 }
-/* line 77, ../../sass/sass/general.scss */
+/* line 75, ../../sass/sass/general.scss */
 body .secondSection, html .secondSection {
   max-width: 1100px;
   width: 100%;
@@ -95,14 +93,14 @@ body .secondSection, html .secondSection {
   *background-repeat:no-repeat;
   */
 }
-/* line 86, ../../sass/sass/general.scss */
+/* line 84, ../../sass/sass/general.scss */
 body .secondSection img, html .secondSection img {
   width: 300px;
   border: solid 3pt #fff;
   margin-top: -50px;
   border-radius: 50%;
 }
-/* line 92, ../../sass/sass/general.scss */
+/* line 90, ../../sass/sass/general.scss */
 body .secondSection p, html .secondSection p {
   text-align: justify;
 }
