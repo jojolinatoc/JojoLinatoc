@@ -27,62 +27,127 @@ body .sections, html .sections {
 }
 /* line 23, ../../sass/sass/general.scss */
 body .top-banner, html .top-banner {
-  margin-top: -96px;
   background-image: url(/public/images/bg5.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
-  padding: 0 20px 0 20px;
+  padding: 0 10px 0 10px;
 }
-/* line 32, ../../sass/sass/general.scss */
+/* line 31, ../../sass/sass/general.scss */
 body .top-banner .firstSection, html .top-banner .firstSection {
   max-width: 1100px;
   width: 100%;
   margin: 0 auto;
 }
-/* line 36, ../../sass/sass/general.scss */
+/* line 35, ../../sass/sass/general.scss */
 body .top-banner .firstSection .logo, html .top-banner .firstSection .logo {
   width: 150px;
   margin-top: 20%;
 }
-/* line 40, ../../sass/sass/general.scss */
+/* line 39, ../../sass/sass/general.scss */
 body .top-banner .firstSection .myName, html .top-banner .firstSection .myName {
   border: solid 3pt #fff;
   padding-bottom: 10px;
-  min-width: 320px;
+  min-width: 300px;
+  max-width: 480px;
+  width: 100%;
   margin: 20px auto;
 }
-/* line 45, ../../sass/sass/general.scss */
+/* line 46, ../../sass/sass/general.scss */
 body .top-banner .firstSection .myName h1, html .top-banner .firstSection .myName h1 {
   color: #fff;
   text-shadow: 1pt 1pt 1pt #333;
 }
-/* line 48, ../../sass/sass/general.scss */
+/* line 49, ../../sass/sass/general.scss */
 body .top-banner .firstSection .myName h1:hover, html .top-banner .firstSection .myName h1:hover {
   transition: all 0.8s ease;
 }
-/* line 52, ../../sass/sass/general.scss */
+/* line 53, ../../sass/sass/general.scss */
 body .top-banner .firstSection .myName:hover, html .top-banner .firstSection .myName:hover {
   background-color: #068B39;
   border-color: #068B39;
   transition: all 0.8s ease;
 }
-/* line 58, ../../sass/sass/general.scss */
+/* line 59, ../../sass/sass/general.scss */
 body .top-banner .firstSection h2, html .top-banner .firstSection h2 {
   color: #fff;
   font-size: 24pt;
 }
-/* line 63, ../../sass/sass/general.scss */
+/* line 64, ../../sass/sass/general.scss */
 body .top-banner .firstSection ul li, html .top-banner .firstSection ul li {
   display: inline-block;
 }
-/* line 66, ../../sass/sass/general.scss */
+/* line 67, ../../sass/sass/general.scss */
 body .top-banner .firstSection ul li a img, html .top-banner .firstSection ul li a img {
   width: 48px;
 }
-/* line 75, ../../sass/sass/general.scss */
+/* line 74, ../../sass/sass/general.scss */
+body .top-banner header, html .top-banner header {
+  width: 100%;
+  padding-top: 25px;
+  background-color: transparent;
+}
+/* line 78, ../../sass/sass/general.scss */
+body .top-banner header .navbar-default, html .top-banner header .navbar-default {
+  background-color: transparent !important;
+  border-bottom: none;
+}
+/* line 81, ../../sass/sass/general.scss */
+body .top-banner header .navbar-default .container, html .top-banner header .navbar-default .container {
+  background-color: transparent;
+}
+/* line 84, ../../sass/sass/general.scss */
+body .top-banner header .navbar-default .container .navbar-header .navbar-brand, html .top-banner header .navbar-default .container .navbar-header .navbar-brand {
+  font-size: 24px;
+  color: #002b80;
+}
+/* line 87, ../../sass/sass/general.scss */
+body .top-banner header .navbar-default .container .navbar-header .navbar-brand img, html .top-banner header .navbar-default .container .navbar-header .navbar-brand img {
+  width: 80px;
+  margin-top: -40px;
+}
+/* line 95, ../../sass/sass/general.scss */
+body .top-banner header .navbar-default .container #navbarCollapse ul li, html .top-banner header .navbar-default .container #navbarCollapse ul li {
+  margin-bottom: -2px !important;
+}
+/* line 105, ../../sass/sass/general.scss */
+body .top-banner header .navbar-toggle, html .top-banner header .navbar-toggle {
+  margin-top: -5px;
+}
+/* line 108, ../../sass/sass/general.scss */
+body .top-banner header .navbar-static-top, html .top-banner header .navbar-static-top {
+  background: #fff;
+}
+/* line 111, ../../sass/sass/general.scss */
+body .top-banner header .navbar-default .navbar-toggle .icon-bar, html .top-banner header .navbar-default .navbar-toggle .icon-bar {
+  background-color: #068B39;
+}
+/* line 114, ../../sass/sass/general.scss */
+body .top-banner header .navbar-default .navbar-nav > li > a, html .top-banner header .navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+/* line 117, ../../sass/sass/general.scss */
+body .top-banner header .navbar-default .navbar-nav > li > a:focus, body .top-banner header .navbar-default .navbar-nav > li > a:hover, html .top-banner header .navbar-default .navbar-nav > li > a:focus, html .top-banner header .navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+  background: #068B39;
+  transition: all 0.8s ease;
+}
+/* line 122, ../../sass/sass/general.scss */
+body .top-banner header .navbar-default .navbar-toggle:hover, html .top-banner header .navbar-default .navbar-toggle:hover {
+  background: #068B39;
+  transition: all 0.8s ease;
+}
+/* line 126, ../../sass/sass/general.scss */
+body .top-banner header .navbar-default .navbar-toggle:focus, html .top-banner header .navbar-default .navbar-toggle:focus {
+  background: transparent;
+}
+/* line 130, ../../sass/sass/general.scss */
+body .top-banner header .navbar-right img, html .top-banner header .navbar-right img {
+  width: 30px;
+}
+/* line 137, ../../sass/sass/general.scss */
 body .secondSection, html .secondSection {
   max-width: 1100px;
   width: 100%;
@@ -93,14 +158,36 @@ body .secondSection, html .secondSection {
   *background-repeat:no-repeat;
   */
 }
-/* line 84, ../../sass/sass/general.scss */
+/* line 146, ../../sass/sass/general.scss */
 body .secondSection img, html .secondSection img {
   width: 300px;
   border: solid 3pt #fff;
   margin-top: -50px;
   border-radius: 50%;
 }
-/* line 90, ../../sass/sass/general.scss */
+/* line 152, ../../sass/sass/general.scss */
 body .secondSection p, html .secondSection p {
   text-align: justify;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* line 161, ../../sass/sass/general.scss */
+  body .sections, html .sections {
+    min-height: 620px;
+  }
+
+  /* line 164, ../../sass/sass/general.scss */
+  body .top-banner .firstSection .logo, html .top-banner .firstSection .logo {
+    margin-top: 0;
+  }
+
+  /* line 167, ../../sass/sass/general.scss */
+  .top-banner .firstSection .myName h1 {
+    font-size: 24pt;
+  }
+
+  /* line 170, ../../sass/sass/general.scss */
+  .top-banner .firstSection h2 {
+    font-size: 14pt !important;
+  }
 }

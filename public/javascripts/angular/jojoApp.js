@@ -3,12 +3,12 @@ var jojo = angular.module("jojoApp", []);
 jojo.controller("headerCtrl", function($scope) {
     $scope.navLinks = [
         {
-             url: "/Contact",
+             url: "#Contact",
                          linkName: "Contact"
 
         },
         {
-            url: "/Portfolio",
+            url: "#Portfolio",
                                   linkName: "Portfolio"
         },
         {

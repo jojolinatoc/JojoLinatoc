@@ -21,14 +21,13 @@ body,html{
        min-height:100vh;
     }
     .top-banner{
-        margin-top:-96px;
         background-image: url(/public/images/bg5.jpg);
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
           text-align:center;
-          padding:0 20px 0 20px;
+          padding:0 10px 0 10px;
           .firstSection{
             max-width:1100px;
             width:100%;
@@ -40,7 +39,9 @@ body,html{
               .myName{
                 border:solid 3pt #fff;
                 padding-bottom:10px;
-                min-width:320px;
+                min-width:300px;
+                max-width:480px;
+                width:100%;
                 margin:20px auto;
                 h1{
                     color:#fff;
@@ -70,6 +71,67 @@ body,html{
                 }
               }
           }
+          header{
+              width:100%;
+              padding-top:25px;
+              background-color:transparent;
+              .navbar-default{
+                  background-color:transparent !important;
+                  border-bottom:none;
+                  .container{
+                      background-color:transparent;
+                      .navbar-header{
+                          .navbar-brand{
+                              font-size:24px;
+                              color:#002b80;
+                              img{
+                                  width:80px;
+                                  margin-top:-40px;
+                              }
+                          }
+                      }
+                      #navbarCollapse{
+                          ul{
+                              li{
+                                  margin-bottom:-2px !important;
+                                  a{
+
+                                  }
+                              }
+                          }
+                      }
+                  }
+              }
+              .navbar-toggle{
+                  margin-top:-5px;
+              }
+              .navbar-static-top{
+                  background:#fff;
+              }
+              .navbar-default .navbar-toggle .icon-bar{
+                 background-color:#068B39;
+              }
+              .navbar-default .navbar-nav>li>a{
+                  color:#fff;
+              }
+              .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+                  color:#fff;
+                  background:#068B39;
+                  transition: all 0.8s ease;
+              }
+              .navbar-default .navbar-toggle:hover{
+                  background:#068B39;
+                  transition: all 0.8s ease;
+              }
+              .navbar-default .navbar-toggle:focus{
+                  background:transparent;
+              }
+              .navbar-right{
+                  img{
+                      width:30px;
+                  }
+              }
+          }
     }
 
     .secondSection{
@@ -90,5 +152,22 @@ body,html{
          p{
             text-align:justify;
          }
+    }
+}
+
+@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 480px) {
+    body .sections, html .sections{
+        min-height:620px;
+    }
+    body .top-banner .firstSection .logo, html .top-banner .firstSection .logo{
+        margin-top:0;
+    }
+    .top-banner .firstSection .myName h1{
+        font-size:24pt;
+    }
+    .top-banner .firstSection h2{
+        font-size:14pt !important;
     }
 }
