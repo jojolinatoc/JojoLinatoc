@@ -1,9 +1,64 @@
-/* line 7, ../../sass/sass/hf.scss */
-header nav .container .navbar-header button span {
-  color: #000;
+/* line 1, ../../sass/sass/hf.scss */
+header {
+  width: 100%;
+  padding-top: 25px;
+  background-color: transparent;
+}
+/* line 5, ../../sass/sass/hf.scss */
+header .navbar-default {
+  background-color: transparent !important;
+  border-bottom: none;
+}
+/* line 8, ../../sass/sass/hf.scss */
+header .navbar-default .container {
+  background-color: transparent;
 }
 /* line 11, ../../sass/sass/hf.scss */
-header nav .container .navbar-header .navbar-brand {
+header .navbar-default .container .navbar-header .navbar-brand {
   font-size: 24px;
   color: #002b80;
+}
+/* line 14, ../../sass/sass/hf.scss */
+header .navbar-default .container .navbar-header .navbar-brand img {
+  width: 80px;
+  margin-top: -40px;
+}
+/* line 22, ../../sass/sass/hf.scss */
+header .navbar-default .container #navbarCollapse ul li {
+  margin-bottom: -2px !important;
+}
+/* line 32, ../../sass/sass/hf.scss */
+header .navbar-toggle {
+  margin-top: -5px;
+}
+/* line 35, ../../sass/sass/hf.scss */
+header .navbar-static-top {
+  background: #fff;
+}
+/* line 38, ../../sass/sass/hf.scss */
+header .navbar-default .navbar-toggle .icon-bar {
+  background-color: #068B39;
+}
+/* line 41, ../../sass/sass/hf.scss */
+header .navbar-default .navbar-nav > li > a {
+  color: #000;
+}
+/* line 44, ../../sass/sass/hf.scss */
+header .navbar-default .navbar-nav > li > a:focus, header .navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+  background: #068B39;
+  transition: all 0.8s ease;
+}
+/* line 49, ../../sass/sass/hf.scss */
+header .navbar-default .navbar-toggle:hover {
+  background: #068B39;
+  transition: all 0.8s ease;
+}
+/* line 53, ../../sass/sass/hf.scss */
+header .navbar-default .navbar-toggle:focus {
+  background: transparent;
+}
+/* line 57, ../../sass/sass/hf.scss */
+header .navbar-right img {
+  width: 30px;
 }
