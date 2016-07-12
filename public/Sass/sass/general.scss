@@ -140,18 +140,25 @@ body,html{
          margin:0 auto;
          text-align:center;
          padding:0 20px 0 20px;
-         /*background-image: url(/public/images/bg4.jpg);
-         *background-repeat:no-repeat;
-         */
-         img{
-            width:300px;
-            border:solid 3pt #fff;
-            margin-top:-50px;
+         background-image: url(/public/images/bg4.jpg);
+         background-repeat:no-repeat;
+
+         .jojo{
+            width:200px;
             border-radius:50%;
          }
          p{
             text-align:justify;
          }
+    }
+    hr{
+        width:120px;
+        height:10px;
+        background:#333333;
+        border:none;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
     }
 }
 
@@ -169,5 +176,8 @@ body,html{
     }
     .top-banner .firstSection h2{
         font-size:14pt !important;
+    }
+    .aboutMe{
+        margin-top:70px;
     }
 }

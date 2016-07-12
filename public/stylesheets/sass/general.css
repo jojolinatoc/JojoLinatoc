@@ -154,40 +154,52 @@ body .secondSection, html .secondSection {
   margin: 0 auto;
   text-align: center;
   padding: 0 20px 0 20px;
-  /*background-image: url(/public/images/bg4.jpg);
-  *background-repeat:no-repeat;
-  */
+  background-image: url(/public/images/bg4.jpg);
+  background-repeat: no-repeat;
 }
 /* line 146, ../../sass/sass/general.scss */
-body .secondSection img, html .secondSection img {
-  width: 300px;
-  border: solid 3pt #fff;
-  margin-top: -50px;
+body .secondSection .jojo, html .secondSection .jojo {
+  width: 200px;
   border-radius: 50%;
 }
-/* line 152, ../../sass/sass/general.scss */
+/* line 150, ../../sass/sass/general.scss */
 body .secondSection p, html .secondSection p {
   text-align: justify;
 }
+/* line 154, ../../sass/sass/general.scss */
+body hr, html hr {
+  width: 120px;
+  height: 10px;
+  background: #333333;
+  border: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 161, ../../sass/sass/general.scss */
+  /* line 168, ../../sass/sass/general.scss */
   body .sections, html .sections {
     min-height: 620px;
   }
 
-  /* line 164, ../../sass/sass/general.scss */
+  /* line 171, ../../sass/sass/general.scss */
   body .top-banner .firstSection .logo, html .top-banner .firstSection .logo {
     margin-top: 0;
   }
 
-  /* line 167, ../../sass/sass/general.scss */
+  /* line 174, ../../sass/sass/general.scss */
   .top-banner .firstSection .myName h1 {
     font-size: 24pt;
   }
 
-  /* line 170, ../../sass/sass/general.scss */
+  /* line 177, ../../sass/sass/general.scss */
   .top-banner .firstSection h2 {
     font-size: 14pt !important;
+  }
+
+  /* line 180, ../../sass/sass/general.scss */
+  .aboutMe {
+    margin-top: 70px;
   }
 }

@@ -4,15 +4,14 @@ jojo.controller("headerCtrl", function($scope) {
     $scope.navLinks = [
         {
              url: "#Contact",
-                         linkName: "Contact"
+             linkName: "Contact"
 
         },
         {
             url: "#Portfolio",
-                                  linkName: "Portfolio"
+            linkName: "Portfolio"
         },
         {
-
             url: "#AboutMe",
             linkName: "About Me"
         }
