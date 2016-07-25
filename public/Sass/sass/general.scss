@@ -1,18 +1,29 @@
+
+
 body,html{
     font-family: 'Raleway', sans-serif;
 
-    a, p{
-        font-size:18pt;
+    a, p, th, td{
+        font-size:16pt;
     }
     a{
         color:#00b36b;
+        &:hover{
+            transition: all 0.5s ease;
+            color:#92C14D;
+            text-decoration:none;
+        }
     }
-    a, p, h1, h2{
+    a, p, h1, h2, th, td{
         font-family: 'Raleway', sans-serif;
     }
     h1{
         font-size:32pt;
         font-weight:bold;
+    }
+    .container{
+        max-width:1100px;
+        font-family: 'Raleway', sans-serif;
     }
     /**** Section 1 *****/
 
@@ -133,32 +144,53 @@ body,html{
               }
           }
     }
-
-    .secondSection{
-         max-width:1100px;
-         width:100%;
-         margin:0 auto;
-         text-align:center;
-         padding:0 20px 0 20px;
-         background-image: url(/public/images/bg4.jpg);
-         background-repeat:no-repeat;
-
-         .jojo{
-            width:200px;
-            border-radius:50%;
-         }
-         p{
-            text-align:justify;
-         }
+    /* Bounce To Right */
+    button {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      position: relative;
+      -webkit-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
     }
-    hr{
-        width:120px;
-        height:10px;
-        background:#333333;
-        border:none;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        border-radius: 20px;
+    button:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #00b36b;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transform-origin: 0 50%;
+      transform-origin: 0 50%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+      -webkit-border-radius: 10px;
+                  -moz-border-radius: 10px;
+                  border-radius: 10px;
+    }
+    button:hover, button:focus, button:active {
+      color: white;
+    }
+    button:hover:before, button:focus:before, button:active:before {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     }
 }
 

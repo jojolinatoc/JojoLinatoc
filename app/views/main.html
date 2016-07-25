@@ -20,7 +20,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript" charset="${_response_encoding}"></script>
         <script src="/public/javascripts/angular/angular.min.js" type="text/javascript" charset="${_response_encoding}"></script>
+        <script src="/public/javascripts/angular/angular-sanitize.min.js" type="text/javascript" charset="${_response_encoding}"></script>
         <script src="/public/javascripts/angular/jojoApp.js" type="text/javascript" charset="${_response_encoding}"></script>
+        <script type="text/javascript" src="/public/javascripts/modernizr.custom.79639.js"></script>
         #{get 'moreScripts' /}
 
         <script>
@@ -41,9 +43,9 @@
             });
         </script>
     </head>
-    <body>
+    <body ng-controller="websiteCtrl">
     <section class="top-banner sections">
-        <header ng-controller="headerCtrl">
+        <header >
             <nav role="navigation" class="navbar navbar-default navbar-static-top">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -66,7 +68,7 @@
             </nav>
         </header>
         <div class="firstSection">
-            <img class="logo" src="public/images/logo1.png">
+            <img class="logo" src="public/images/jojo-logo.png">
             <div class="myName">
                 <h1>JOJO P. LINATOC</h1>
             </div>
