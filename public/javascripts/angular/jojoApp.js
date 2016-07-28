@@ -8,8 +8,12 @@ jojo.controller("websiteCtrl", function($scope) {
 
         },
         {
-            url: "#Portfolio",
-            linkName: "Portfolio"
+            url: "#Skills",
+            linkName: "Skills"
+        },
+        {
+            url: "#Resume",
+            linkName: "Resume"
         },
         {
             url: "#AboutMe",

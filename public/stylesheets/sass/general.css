@@ -9,37 +9,48 @@ body a, body p, body th, body td, html a, html p, html th, html td {
   font-size: 16pt;
 }
 /* line 9, ../../sass/sass/general.scss */
+body hr, html hr {
+  width: 120px;
+  height: 10px;
+  background: #333333;
+  border: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 18, ../../sass/sass/general.scss */
 body a, html a {
   color: #00b36b;
 }
-/* line 11, ../../sass/sass/general.scss */
-body a:hover, html a:hover {
+/* line 20, ../../sass/sass/general.scss */
+body a:hover, body a:active, body a:focus, html a:hover, html a:active, html a:focus {
   transition: all 0.5s ease;
   color: #92C14D;
   text-decoration: none;
 }
-/* line 17, ../../sass/sass/general.scss */
+/* line 26, ../../sass/sass/general.scss */
 body a, body p, body h1, body h2, body th, body td, html a, html p, html h1, html h2, html th, html td {
   font-family: 'Raleway', sans-serif;
 }
-/* line 20, ../../sass/sass/general.scss */
+/* line 29, ../../sass/sass/general.scss */
 body h1, html h1 {
   font-size: 32pt;
   font-weight: bold;
+  text-align: center;
 }
-/* line 24, ../../sass/sass/general.scss */
+/* line 34, ../../sass/sass/general.scss */
 body .container, html .container {
   max-width: 1100px;
   font-family: 'Raleway', sans-serif;
 }
-/* line 30, ../../sass/sass/general.scss */
+/* line 40, ../../sass/sass/general.scss */
 body .sections, html .sections {
   width: 100%;
   min-height: 100vh;
 }
-/* line 34, ../../sass/sass/general.scss */
+/* line 44, ../../sass/sass/general.scss */
 body .top-banner, html .top-banner {
-  background-image: url(/public/images/bg5.jpg);
+  background-image: url("/public/images/bg-prototype.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -47,18 +58,18 @@ body .top-banner, html .top-banner {
   text-align: center;
   padding: 0 10px 0 10px;
 }
-/* line 42, ../../sass/sass/general.scss */
+/* line 54, ../../sass/sass/general.scss */
 body .top-banner .firstSection, html .top-banner .firstSection {
   max-width: 1100px;
   width: 100%;
   margin: 0 auto;
 }
-/* line 46, ../../sass/sass/general.scss */
+/* line 58, ../../sass/sass/general.scss */
 body .top-banner .firstSection .logo, html .top-banner .firstSection .logo {
   width: 150px;
   margin-top: 10%;
 }
-/* line 50, ../../sass/sass/general.scss */
+/* line 62, ../../sass/sass/general.scss */
 body .top-banner .firstSection .myName, html .top-banner .firstSection .myName {
   border: solid 3pt #fff;
   padding-bottom: 10px;
@@ -67,99 +78,99 @@ body .top-banner .firstSection .myName, html .top-banner .firstSection .myName {
   width: 100%;
   margin: 20px auto;
 }
-/* line 57, ../../sass/sass/general.scss */
+/* line 69, ../../sass/sass/general.scss */
 body .top-banner .firstSection .myName h1, html .top-banner .firstSection .myName h1 {
   color: #fff;
   text-shadow: 1pt 1pt 1pt #333;
 }
-/* line 60, ../../sass/sass/general.scss */
+/* line 72, ../../sass/sass/general.scss */
 body .top-banner .firstSection .myName h1:hover, html .top-banner .firstSection .myName h1:hover {
   transition: all 0.8s ease;
 }
-/* line 64, ../../sass/sass/general.scss */
+/* line 76, ../../sass/sass/general.scss */
 body .top-banner .firstSection .myName:hover, html .top-banner .firstSection .myName:hover {
   background-color: #068B39;
   border-color: #068B39;
   transition: all 0.8s ease;
 }
-/* line 70, ../../sass/sass/general.scss */
+/* line 82, ../../sass/sass/general.scss */
 body .top-banner .firstSection h2, html .top-banner .firstSection h2 {
   color: #fff;
   font-size: 24pt;
 }
-/* line 75, ../../sass/sass/general.scss */
+/* line 87, ../../sass/sass/general.scss */
 body .top-banner .firstSection ul li, html .top-banner .firstSection ul li {
   display: inline-block;
 }
-/* line 78, ../../sass/sass/general.scss */
+/* line 90, ../../sass/sass/general.scss */
 body .top-banner .firstSection ul li a img, html .top-banner .firstSection ul li a img {
   width: 48px;
 }
-/* line 85, ../../sass/sass/general.scss */
+/* line 97, ../../sass/sass/general.scss */
 body .top-banner header, html .top-banner header {
   width: 100%;
   padding-top: 25px;
   background-color: transparent;
 }
-/* line 89, ../../sass/sass/general.scss */
+/* line 101, ../../sass/sass/general.scss */
 body .top-banner header .navbar-default, html .top-banner header .navbar-default {
   background-color: transparent !important;
   border-bottom: none;
 }
-/* line 92, ../../sass/sass/general.scss */
+/* line 104, ../../sass/sass/general.scss */
 body .top-banner header .navbar-default .container, html .top-banner header .navbar-default .container {
   background-color: transparent;
 }
-/* line 95, ../../sass/sass/general.scss */
+/* line 107, ../../sass/sass/general.scss */
 body .top-banner header .navbar-default .container .navbar-header .navbar-brand, html .top-banner header .navbar-default .container .navbar-header .navbar-brand {
   font-size: 24px;
   color: #002b80;
 }
-/* line 98, ../../sass/sass/general.scss */
+/* line 110, ../../sass/sass/general.scss */
 body .top-banner header .navbar-default .container .navbar-header .navbar-brand img, html .top-banner header .navbar-default .container .navbar-header .navbar-brand img {
   width: 80px;
   margin-top: -40px;
 }
-/* line 106, ../../sass/sass/general.scss */
+/* line 118, ../../sass/sass/general.scss */
 body .top-banner header .navbar-default .container #navbarCollapse ul li, html .top-banner header .navbar-default .container #navbarCollapse ul li {
   margin-bottom: -2px !important;
 }
-/* line 116, ../../sass/sass/general.scss */
+/* line 128, ../../sass/sass/general.scss */
 body .top-banner header .navbar-toggle, html .top-banner header .navbar-toggle {
   margin-top: -5px;
 }
-/* line 119, ../../sass/sass/general.scss */
+/* line 131, ../../sass/sass/general.scss */
 body .top-banner header .navbar-static-top, html .top-banner header .navbar-static-top {
   background: #fff;
 }
-/* line 122, ../../sass/sass/general.scss */
+/* line 134, ../../sass/sass/general.scss */
 body .top-banner header .navbar-default .navbar-toggle .icon-bar, html .top-banner header .navbar-default .navbar-toggle .icon-bar {
   background-color: #068B39;
 }
-/* line 125, ../../sass/sass/general.scss */
+/* line 137, ../../sass/sass/general.scss */
 body .top-banner header .navbar-default .navbar-nav > li > a, html .top-banner header .navbar-default .navbar-nav > li > a {
   color: #fff;
 }
-/* line 128, ../../sass/sass/general.scss */
+/* line 140, ../../sass/sass/general.scss */
 body .top-banner header .navbar-default .navbar-nav > li > a:focus, body .top-banner header .navbar-default .navbar-nav > li > a:hover, html .top-banner header .navbar-default .navbar-nav > li > a:focus, html .top-banner header .navbar-default .navbar-nav > li > a:hover {
   color: #fff;
   background: #068B39;
   transition: all 0.8s ease;
 }
-/* line 133, ../../sass/sass/general.scss */
+/* line 145, ../../sass/sass/general.scss */
 body .top-banner header .navbar-default .navbar-toggle:hover, html .top-banner header .navbar-default .navbar-toggle:hover {
   background: #068B39;
   transition: all 0.8s ease;
 }
-/* line 137, ../../sass/sass/general.scss */
+/* line 149, ../../sass/sass/general.scss */
 body .top-banner header .navbar-default .navbar-toggle:focus, html .top-banner header .navbar-default .navbar-toggle:focus {
   background: transparent;
 }
-/* line 141, ../../sass/sass/general.scss */
+/* line 153, ../../sass/sass/general.scss */
 body .top-banner header .navbar-right img, html .top-banner header .navbar-right img {
   width: 30px;
 }
-/* line 148, ../../sass/sass/general.scss */
+/* line 160, ../../sass/sass/general.scss */
 body button, html button {
   display: inline-block;
   vertical-align: middle;
@@ -175,7 +186,7 @@ body button, html button {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-/* line 163, ../../sass/sass/general.scss */
+/* line 175, ../../sass/sass/general.scss */
 body button:before, html button:before {
   content: "";
   position: absolute;
@@ -199,11 +210,11 @@ body button:before, html button:before {
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 186, ../../sass/sass/general.scss */
+/* line 198, ../../sass/sass/general.scss */
 body button:hover, body button:focus, body button:active, html button:hover, html button:focus, html button:active {
   color: white;
 }
-/* line 189, ../../sass/sass/general.scss */
+/* line 201, ../../sass/sass/general.scss */
 body button:hover:before, body button:focus:before, body button:active:before, html button:hover:before, html button:focus:before, html button:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -212,27 +223,27 @@ body button:hover:before, body button:focus:before, body button:active:before, h
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 200, ../../sass/sass/general.scss */
+  /* line 212, ../../sass/sass/general.scss */
   body .sections, html .sections {
     min-height: 620px;
   }
 
-  /* line 203, ../../sass/sass/general.scss */
+  /* line 215, ../../sass/sass/general.scss */
   body .top-banner .firstSection .logo, html .top-banner .firstSection .logo {
     margin-top: 0;
   }
 
-  /* line 206, ../../sass/sass/general.scss */
+  /* line 218, ../../sass/sass/general.scss */
   .top-banner .firstSection .myName h1 {
     font-size: 24pt;
   }
 
-  /* line 209, ../../sass/sass/general.scss */
+  /* line 221, ../../sass/sass/general.scss */
   .top-banner .firstSection h2 {
     font-size: 14pt !important;
   }
 
-  /* line 212, ../../sass/sass/general.scss */
+  /* line 224, ../../sass/sass/general.scss */
   .aboutMe {
     margin-top: 70px;
   }

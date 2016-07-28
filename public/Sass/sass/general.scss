@@ -6,9 +6,18 @@ body,html{
     a, p, th, td{
         font-size:16pt;
     }
+     hr{
+        width:120px;
+        height:10px;
+        background:#333333;
+        border:none;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+    }
     a{
         color:#00b36b;
-        &:hover{
+        &:hover, &:active, &:focus{
             transition: all 0.5s ease;
             color:#92C14D;
             text-decoration:none;
@@ -20,6 +29,7 @@ body,html{
     h1{
         font-size:32pt;
         font-weight:bold;
+        text-align:center;
     }
     .container{
         max-width:1100px;
@@ -32,7 +42,9 @@ body,html{
        min-height:100vh;
     }
     .top-banner{
-        background-image: url(/public/images/bg5.jpg);
+          //background-image:url('/public/images/polygon-background.jpg');
+          background-image:url('/public/images/bg-prototype.jpg');
+        //background-image: url(/public/images/bg5.jpg);
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
