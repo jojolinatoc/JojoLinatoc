@@ -1,6 +1,9 @@
 #AboutMe{
     margin-top:-10px;
-    background:#fff;
+    background-color:#fff;
+    background-image:url('/public/images/backgrounds/b5.png');
+    background-repeat:no-repeat;
+    background-size:100% 350px;
     .secondSection{
          max-width:1100px;
          width:100%;
@@ -36,6 +39,7 @@
         }
         .signature{
             margin:10px 0 20px 0;
+            width:190px;
         }
         button{
             font-size:16pt;

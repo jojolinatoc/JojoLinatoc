@@ -27,6 +27,92 @@
             });
         }
     });
+
+
+        $(document).ready(function(){
+            $('.loader1').waypoint(function() {
+                $('.loader1').ClassyLoader({
+                    speed: 10,
+                    diameter: 80,
+                    fontSize: '30px',
+                    fontFamily: 'Raleway',
+                    fontColor: '#00b36b',
+                    lineColor: '#00b36b',
+                    percentage: 95,
+                    lineWidth: 20,
+                    start: 'top',
+                    remainingLineColor: '#333333'
+                });
+            }, {
+                offset: '80%'
+            });
+            $('.loader2').waypoint(function() {
+                 $('.loader2').ClassyLoader({
+                    speed: 10,
+                    diameter: 80,
+                    fontSize: '30px',
+                    fontFamily: 'Raleway',
+                    fontColor: '#00b36b',
+                    lineColor: '#00b36b',
+                    percentage: 90,
+                    lineWidth: 20,
+                    start: 'top',
+                    remainingLineColor: '#333333'
+                });
+            }, {
+                offset: '70%'
+            });
+            $('.loader3').waypoint(function() {
+                 $('.loader3').ClassyLoader({
+                    speed: 10,
+                    diameter: 80,
+                    fontSize: '30px',
+                    fontFamily: 'Raleway',
+                    fontColor: '#00b36b',
+                    lineColor: '#00b36b',
+                    percentage: 85,
+                    lineWidth: 20,
+                    start: 'top',
+                    remainingLineColor: '#333333'
+                });
+            }, {
+                offset: '60%'
+            });
+            $('.loader4').waypoint(function() {
+                 $('.loader4').ClassyLoader({
+                    speed: 10,
+                    diameter: 80,
+                    fontSize: '30px',
+                    fontFamily: 'Raleway',
+                    fontColor: '#00b36b',
+                    lineColor: '#00b36b',
+                    percentage: 80,
+                    lineWidth: 20,
+                    start: 'top',
+                    remainingLineColor: '#333333'
+                });
+            }, {
+                offset: '60%'
+            });
+            $('.loader5').waypoint(function() {
+                 $('.loader5').ClassyLoader({
+                    speed: 10,
+                    diameter: 80,
+                    fontSize: '30px',
+                    fontFamily: 'Raleway',
+                    fontColor: '#00b36b',
+                    lineColor: '#00b36b',
+                    percentage: 50,
+                    lineWidth: 20,
+                    start: 'top',
+                    remainingLineColor: '#333333'
+                });
+            }, {
+                offset: '80%'
+            });
+        });
+
+
 </script>
 
 <section class="sections" id="AboutMe">
@@ -157,7 +243,37 @@
                     <span class="cd-date">Apr 25, 2015</span>
                 </div> <!-- cd-timeline-content -->
             </div> <!-- cd-timeline-block -->
-
         </section>
+    </div>
+</section>
+
+<section class="sections" id="Skills">
+    <div class="container Skills">
+        <div class="row skillsContent">
+            <h1>SKILLS</h1>
+            <hr>
+            <div class="col-md-3 loaders">
+                <canvas class="loader1"></canvas>
+                <p>HTML / HTML5</p>
+            </div>
+            <div class="col-md-3 loaders">
+                <canvas class="loader2"></canvas>
+                <p>CSS / CSS3 / SASS</p>
+            </div>
+            <div class="col-md-3 loaders">
+                <canvas class="loader3"></canvas>
+                <p>Javascript</p>
+            </div>
+            <div class="col-md-3 loaders">
+                <canvas class="loader4"></canvas>
+                <p>Jquery</p>
+            </div>
+        </div>
+        <div class="row skillsContent">
+            <div class="col-md-3 loaders">
+                <canvas class="loader5"></canvas>
+                <p>Angular JS</p>
+            </div>
+        </div>
     </div>
 </section>
