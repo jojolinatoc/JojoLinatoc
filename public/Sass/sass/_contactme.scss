@@ -1,5 +1,8 @@
 #Contact{
-    background:#ccc;
+    background-image:url('/public/images/banners/banner-top.png');
+    background-repeat:no-repeat;
+        background-size:cover;
+        background-attachement:fixed;
     hr{
         margin-bottom:50px;
     }
