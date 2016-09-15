@@ -54,7 +54,7 @@
                     fontFamily: 'Raleway',
                     fontColor: '#00b36b',
                     lineColor: '#00b36b',
-                    percentage: 90,
+                    percentage: 95,
                     lineWidth: 20,
                     start: 'top',
                     remainingLineColor: '#333333'
@@ -70,7 +70,7 @@
                     fontFamily: 'Raleway',
                     fontColor: '#00b36b',
                     lineColor: '#00b36b',
-                    percentage: 85,
+                    percentage: 80,
                     lineWidth: 20,
                     start: 'top',
                     remainingLineColor: '#333333'
@@ -96,6 +96,54 @@
             });
             $('.loader5').waypoint(function() {
                  $('.loader5').ClassyLoader({
+                    speed: 10,
+                    diameter: 80,
+                    fontSize: '30px',
+                    fontFamily: 'Raleway',
+                    fontColor: '#00b36b',
+                    lineColor: '#00b36b',
+                    percentage: 50,
+                    lineWidth: 20,
+                    start: 'top',
+                    remainingLineColor: '#333333'
+                });
+            }, {
+                offset: '80%'
+            });
+            $('.loader6').waypoint(function() {
+                 $('.loader6').ClassyLoader({
+                    speed: 10,
+                    diameter: 80,
+                    fontSize: '30px',
+                    fontFamily: 'Raleway',
+                    fontColor: '#00b36b',
+                    lineColor: '#00b36b',
+                    percentage: 60,
+                    lineWidth: 20,
+                    start: 'top',
+                    remainingLineColor: '#333333'
+                });
+            }, {
+                offset: '80%'
+            });
+            $('.loader7').waypoint(function() {
+                 $('.loader7').ClassyLoader({
+                    speed: 10,
+                    diameter: 80,
+                    fontSize: '30px',
+                    fontFamily: 'Raleway',
+                    fontColor: '#00b36b',
+                    lineColor: '#00b36b',
+                    percentage: 50,
+                    lineWidth: 20,
+                    start: 'top',
+                    remainingLineColor: '#333333'
+                });
+            }, {
+                offset: '80%'
+            });
+             $('.loader8').waypoint(function() {
+                 $('.loader8').ClassyLoader({
                     speed: 10,
                     diameter: 80,
                     fontSize: '30px',
@@ -202,10 +250,10 @@
 
                 <div class="cd-timeline-content">
                     <h2>Software Engineer | Junior</h2>
-                    <span>Kinpo Electronics Phils. - January 2015 to July 2015</span>
+                    <span>Kinpo Electronics Phils. - August 10, 2015 to Present</span>
                     <p>Here we work as a team, specifically we are the web team.  We are assigned to create the website projects of the company and also maintains their  existing website in different languages.</p>
                     <a target="_blank" href="http://us.xyzprinting.com/"><button>View project</button></a>
-                    <span class="cd-date">September, 2015<br></span>
+                    <span class="cd-date">August, 2015<br></span>
                 </div> <!-- cd-timeline-content -->
             </div> <!-- cd-timeline-block -->
 
@@ -216,10 +264,10 @@
 
                 <div class="cd-timeline-content">
                     <h2>Junior Web Developer</h2>
-                    <span>PUSOD Inc. - January 2015 to July 2015</span>
+                    <span>PUSOD Inc. - May 18, 2014 – August 1, 2015</span>
                     <p>This is my first job, actually I am an intern before to this company. I developed their website and they are satisfied with my work so they hired me to maintain it.</p>
                     <a target="_blank" href="http://pusod.org/"><button>View project</button></a>
-                    <span class="cd-date">January, 2015</span>
+                    <span class="cd-date">May, 2014</span>
                 </div> <!-- cd-timeline-content -->
             </div> <!-- cd-timeline-block -->
 
@@ -252,28 +300,77 @@
         <div class="row skillsContent">
             <h1>SKILLS</h1>
             <hr>
-            <div class="col-md-3 loaders">
+            <div class="col-sm-3 loaders">
                 <canvas class="loader1"></canvas>
                 <p>HTML / HTML5</p>
             </div>
-            <div class="col-md-3 loaders">
+            <div class="col-sm-3 loaders">
                 <canvas class="loader2"></canvas>
                 <p>CSS / CSS3 / SASS</p>
             </div>
-            <div class="col-md-3 loaders">
+            <div class="col-sm-3 loaders">
                 <canvas class="loader3"></canvas>
                 <p>Javascript</p>
             </div>
-            <div class="col-md-3 loaders">
+            <div class="col-sm-3 loaders">
                 <canvas class="loader4"></canvas>
                 <p>Jquery</p>
             </div>
         </div>
         <div class="row skillsContent">
-            <div class="col-md-3 loaders">
+            <div class="col-sm-3 loaders">
                 <canvas class="loader5"></canvas>
                 <p>Angular JS</p>
+            </div>
+            <div class="col-sm-3 loaders">
+                <canvas class="loader6"></canvas>
+                <p>PHP</p>
+            </div>
+            <div class="col-sm-3 loaders">
+                <canvas class="loader7"></canvas>
+                <p>PLAY Framework</p>
+            </div>
+            <div class="col-sm-3 loaders">
+                <canvas class="loader8"></canvas>
+                <p>MySQL</p>
             </div>
         </div>
     </div>
 </section>
+
+<section class="sections" id="Contact">
+    <div class="container">
+        <div class="row" class="contactme">
+            <h1>CONTACT ME</h1>
+            <hr>
+            <div class="col-sm-6">
+               <input type="text" id="email" placeholder="Enter your email">
+            </div>
+            <div class="col-sm-6">
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <textarea id="message" placeholder="Enter your message here"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <button onclick="sendMail(); return false">Send Email</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function sendMail() {
+    var link = "mailto:linatocjojop@gmail.com"
+             + "?cc=linatocjp@gmail.com"
+             + "&subject=" + escape("Website portfolio")
+             + "&body=" + escape(document.getElementById('message').value)
+    ;
+
+    window.location.href = link;
+    }
+</script>

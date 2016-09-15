@@ -71,11 +71,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #AboutMe {
   margin-top: -10px;
   background-color: #fff;
-  background-image: url("/public/images/backgrounds/b5.png");
-  background-repeat: no-repeat;
-  background-size: 100% 350px;
 }
-/* line 7, ../../sass/sass/_aboutMe.scss */
+/* line 5, ../../sass/sass/_aboutMe.scss */
 #AboutMe .secondSection {
   max-width: 1100px;
   width: 100%;
@@ -84,44 +81,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 0 20px 0 20px;
   background-repeat: no-repeat;
 }
-/* line 15, ../../sass/sass/_aboutMe.scss */
+/* line 13, ../../sass/sass/_aboutMe.scss */
 #AboutMe .secondSection .jojo {
   width: 220px;
   height: 230px;
   border-radius: 50% 50%;
   margin-top: 20px;
 }
-/* line 21, ../../sass/sass/_aboutMe.scss */
+/* line 19, ../../sass/sass/_aboutMe.scss */
 #AboutMe .secondSection p {
   text-align: justify;
 }
-/* line 25, ../../sass/sass/_aboutMe.scss */
+/* line 23, ../../sass/sass/_aboutMe.scss */
 #AboutMe .basicInfo {
   text-align: center;
 }
-/* line 27, ../../sass/sass/_aboutMe.scss */
+/* line 25, ../../sass/sass/_aboutMe.scss */
 #AboutMe .basicInfo table {
   margin-top: 40px;
 }
-/* line 29, ../../sass/sass/_aboutMe.scss */
+/* line 27, ../../sass/sass/_aboutMe.scss */
 #AboutMe .basicInfo table th {
   padding: 8px;
   vertical-align: top;
 }
-/* line 32, ../../sass/sass/_aboutMe.scss */
+/* line 30, ../../sass/sass/_aboutMe.scss */
 #AboutMe .basicInfo table th img {
   width: 32px;
 }
-/* line 36, ../../sass/sass/_aboutMe.scss */
+/* line 34, ../../sass/sass/_aboutMe.scss */
 #AboutMe .basicInfo table td {
   padding: 8px;
 }
-/* line 40, ../../sass/sass/_aboutMe.scss */
+/* line 38, ../../sass/sass/_aboutMe.scss */
 #AboutMe .basicInfo .signature {
   margin: 10px 0 20px 0;
   width: 190px;
 }
-/* line 44, ../../sass/sass/_aboutMe.scss */
+/* line 42, ../../sass/sass/_aboutMe.scss */
 #AboutMe .basicInfo button {
   font-size: 16pt;
   width: 90%;
@@ -134,15 +131,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #2D3D4D;
   color: #fff;
 }
-/* line 55, ../../sass/sass/_aboutMe.scss */
+/* line 53, ../../sass/sass/_aboutMe.scss */
 #AboutMe .basicInfo button span {
   margin-left: 20px;
 }
-/* line 58, ../../sass/sass/_aboutMe.scss */
+/* line 56, ../../sass/sass/_aboutMe.scss */
 #AboutMe .basicInfo button:hover {
   color: #000;
 }
-/* line 63, ../../sass/sass/_aboutMe.scss */
+/* line 61, ../../sass/sass/_aboutMe.scss */
 #AboutMe hr {
   width: 120px;
   height: 10px;
@@ -152,7 +149,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -moz-border-radius: 20px;
   border-radius: 20px;
 }
-/* line 73, ../../sass/sass/_aboutMe.scss */
+/* line 71, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies .ch-grid {
   margin: 20px 0 0 0;
   padding: 0;
@@ -161,33 +158,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
   width: 100%;
 }
-/* line 82, ../../sass/sass/_aboutMe.scss */
+/* line 80, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies .ch-grid:after,
 #AboutMe .hobbies .ch-item:before {
   content: '';
   display: table;
 }
-/* line 88, ../../sass/sass/_aboutMe.scss */
+/* line 86, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies .ch-grid:after {
   clear: both;
 }
-/* line 92, ../../sass/sass/_aboutMe.scss */
+/* line 90, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies .ch-grid li {
   width: 160px;
   height: 160px;
   display: inline-block;
   margin: 20px;
 }
-/* line 98, ../../sass/sass/_aboutMe.scss */
+/* line 96, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul {
   width: 100%;
   text-align: center;
 }
-/* line 101, ../../sass/sass/_aboutMe.scss */
+/* line 99, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li {
   width: 30%;
 }
-/* line 103, ../../sass/sass/_aboutMe.scss */
+/* line 101, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-item {
   width: 100%;
   height: 100%;
@@ -196,7 +193,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   cursor: default;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
-/* line 111, ../../sass/sass/_aboutMe.scss */
+/* line 109, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-thumb {
   width: 100%;
   height: 100%;
@@ -206,7 +203,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transform-origin: 95% 40%;
   transition: all 0.3s ease-in-out;
 }
-/* line 121, ../../sass/sass/_aboutMe.scss */
+/* line 119, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-thumb:after {
   content: '';
   position: absolute;
@@ -217,22 +214,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: radial-gradient(ellipse at center, #0e0e0e 0%, #7d7e7d 100%);
   box-shadow: 0 0 1px rgba(255, 255, 255, 0.9);
 }
-/* line 133, ../../sass/sass/_aboutMe.scss */
+/* line 131, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-img-1 {
   background-image: url("/public/images/aboutme/music1.png");
   z-index: 12;
 }
-/* line 137, ../../sass/sass/_aboutMe.scss */
+/* line 135, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-img-2 {
   background-image: url("/public/images/aboutme/cinema.png");
   z-index: 11;
 }
-/* line 142, ../../sass/sass/_aboutMe.scss */
+/* line 140, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-img-3 {
   background-image: url("/public/images/aboutme/windows.png");
   z-index: 10;
 }
-/* line 146, ../../sass/sass/_aboutMe.scss */
+/* line 144, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-info {
   position: absolute;
   width: inherit;
@@ -242,7 +239,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #068B39;
   box-shadow: inset 0 0 0 5px rgba(0, 0, 0, 0.05);
 }
-/* line 155, ../../sass/sass/_aboutMe.scss */
+/* line 153, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-info h3 {
   color: #fff;
   text-transform: uppercase;
@@ -255,7 +252,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: 'Open Sans', Arial, sans-serif;
   text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
 }
-/* line 169, ../../sass/sass/_aboutMe.scss */
+/* line 167, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-info p {
   color: #fff;
   font-style: italic;
@@ -263,11 +260,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 12px;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
-/* line 176, ../../sass/sass/_aboutMe.scss */
+/* line 174, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-info p.windowsP {
   border-top: none;
 }
-/* line 179, ../../sass/sass/_aboutMe.scss */
+/* line 177, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-info p a {
   display: block;
   color: #333;
@@ -288,16 +285,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transition: transform 0.3s ease-in-out 0.2s, opacity 0.3s ease-in-out 0.2s, background 0.2s linear 0s;
   transform: translateX(60px) rotate(90deg);
 }
-/* line 203, ../../sass/sass/_aboutMe.scss */
+/* line 201, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-info p a:hover {
   background: rgba(255, 255, 255, 0.5);
 }
-/* line 206, ../../sass/sass/_aboutMe.scss */
+/* line 204, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-item:hover .ch-thumb {
   box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.5), 0 1px 3px rgba(0, 0, 0, 0.2);
   transform: rotate(-110deg);
 }
-/* line 210, ../../sass/sass/_aboutMe.scss */
+/* line 208, ../../sass/sass/_aboutMe.scss */
 #AboutMe .hobbies ul li .ch-item:hover .ch-info p a {
   opacity: 1;
   transform: translateX(0px) rotate(0deg);
@@ -777,8 +774,62 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     transform: translateX(0);
   }
 }
-/* line 4, ../../sass/sass/_skills.scss */
+/* line 3, ../../sass/sass/_skills.scss */
 #Skills .skillsContent .loaders {
   text-align: center;
   margin: 30px 0 10px 0;
+}
+
+/* line 1, ../../sass/sass/_contactme.scss */
+#Contact {
+  background: #ccc;
+}
+/* line 3, ../../sass/sass/_contactme.scss */
+#Contact hr {
+  margin-bottom: 50px;
+}
+/* line 6, ../../sass/sass/_contactme.scss */
+#Contact .row {
+  margin-top: 30px;
+}
+/* line 9, ../../sass/sass/_contactme.scss */
+#Contact input {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  font-size: 16px;
+  padding: 15px 0 15px 15px;
+}
+/* line 18, ../../sass/sass/_contactme.scss */
+#Contact input:focus {
+  outline: none;
+  border-bottom: solid 3pt #2D3D4D;
+}
+/* line 23, ../../sass/sass/_contactme.scss */
+#Contact textarea {
+  width: 100%;
+  height: 240px;
+  border: none;
+  padding: 15px;
+  resize: none;
+}
+/* line 29, ../../sass/sass/_contactme.scss */
+#Contact textarea:focus {
+  outline: none;
+  border-bottom: solid 3pt #2D3D4D;
+}
+/* line 34, ../../sass/sass/_contactme.scss */
+#Contact button {
+  width: 100%;
+  font-size: 16pt;
+  border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px 0 20px 0;
+  margin-bottom: 30px;
+  background: #2D3D4D;
+  color: #fff;
 }
