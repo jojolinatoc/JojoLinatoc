@@ -24,7 +24,7 @@ jojo.controller("websiteCtrl", function($scope) {
     $scope.aboutMe = [
             {
                  icon: "/public/images/aboutme/cp.png",
-                 aboutItem: "0997 415 0425",
+                 aboutItem: "0975 352 7076",
                  link: "none"
             },
             {
